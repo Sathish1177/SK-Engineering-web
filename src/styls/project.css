@@ -1,0 +1,166 @@
+
+.headingg{
+    margin-top: 10px;
+}
+.headingg h1{
+    
+    text-align: center;
+  }
+.headingg p{
+      border-top: 3px solid rgb(43, 39, 39);
+      width:220px;
+      margin-left: 500px;
+      margin-top: -8px;
+      margin-bottom: 50px;
+  }
+  .lists ul{
+    list-style: none;
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    margin-left: 80px;
+    
+
+  }
+  .lists ul li a{
+    color: rgb(10, 10, 76);
+    text-decoration: none;
+  }
+  .lists ul li span{
+    color: rgb(10, 10, 76);
+  }
+  .project_img{
+    margin-top: 40px;
+  }
+  /* .projectimg{
+    width: 95%;
+    margin-left: 2.5%;
+  
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 20px;
+
+  } */
+ .projectimg{
+  margin-top: 10px;
+  height: 140px;
+  display:flex;
+  background-color: #f5f5f5;
+  justify-content: space-around;
+  padding: 10px 0;
+ }
+ .box{
+  height: 125px;
+  width:185px ;
+  margin-top: 10px;
+  background-color:white;
+  
+  border-radius: 10px;
+  display:flex;
+  flex-direction: column;
+}
+.box img{
+  height: 115px;
+  width: 175px;
+  border-radius: 5px;
+  margin-left:5px;
+  margin-top: 5px;
+  
+
+}
+
+.lists ul li a:hover {
+  color: orangered;
+}
+.change{
+  position: absolute;
+  height: 115px;
+  width: 175px;
+  border-radius: 5px;
+  margin-left:5px;
+  margin-top: 15px;
+  background-image: url(../img/SOLAR\ FRAME\ 001.jpeg);
+  background-size: cover;
+  top: 0px;
+  opacity: 0;
+}
+.img-box{
+  position: relative;
+}
+.img-box:hover .change{
+  opacity: 1;
+}
+
+.change1{
+  position: absolute;
+  height: 115px;
+  width: 175px;
+  border-radius: 5px;
+  margin-left:5px;
+  margin-top: 15px;
+  background-image: url(../img/GI\ DECKING\ SHEET\ 002.jpg);
+  background-size: cover;
+  top: 0px;
+  opacity: 0;
+}
+.img-box1{
+  position: relative;
+}
+.img-box1:hover .change1{
+  opacity: 1;
+}
+
+.change2{
+  position: absolute;
+  height: 115px;
+  width: 175px;
+  border-radius: 5px;
+  margin-left:5px;
+  margin-top: 15px;
+  background-image: url(../img/ROOF\ VENTILATOR\ 003.jpg);
+  background-size: cover;
+  top: 0px;
+  opacity: 0;
+}
+.img-box2{
+  position: relative;
+}
+.img-box2:hover .change2{
+  opacity: 1;
+}
+.change3{
+  position: absolute;
+  height: 115px;
+  width: 175px;
+  border-radius: 5px;
+  margin-left:5px;
+  margin-top: 15px;
+  background-image: url(../img/CURVED\ ROOFING\ PROFILE\ 004.jpg);
+  background-size: cover;
+  top: 0px;
+  opacity: 0;
+}
+.img-box3{
+  position: relative;
+}
+.img-box3:hover .change3{
+  opacity: 1;
+}
+.change4{
+  position: absolute;
+  height: 115px;
+  width: 175px;
+  border-radius: 5px;
+  margin-left:5px;
+  margin-top: 15px;
+  background-image: url(../img/005.jpeg);
+  background-size: cover;
+  top: 0px;
+  opacity: 0;
+}
+.img-box4{
+  position: relative;
+}
+.img-box4:hover .change4{
+  opacity: 1;
+}
