@@ -1,0 +1,32 @@
+.clint_box{
+    margin-top: 100px;
+}
+
+.clint_logos{
+    
+
+    
+    display: flex;
+    
+    margin-left: 259px;
+    margin-top: -140px;
+    overflow: hidden;
+    
+}
+.logoss{
+    /* position: absolute; */
+    animation-name: img;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+@keyframes img{
+    0%{
+        margin-left: 10%;
+    }
+    50%{
+        margin-left: 100%;
+    }
+ 
+}

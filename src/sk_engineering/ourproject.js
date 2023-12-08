@@ -106,11 +106,7 @@ function Our_project(){
          </div> */}
         </div>
 
-        <div className="footer">
-          <div className="address">
-            <h3>UNIT I</h3>
-          </div>
-        </div>
+        
         </>
     )
 }

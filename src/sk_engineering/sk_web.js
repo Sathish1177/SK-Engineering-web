@@ -3,6 +3,8 @@ import React from "react";
 import { Navbar } from "./roofing";
 import { Services } from "./OurServices";
 import { Our_project } from "./ourproject";
+import { Clint } from "./clint";
+import { Footer } from "./footer";
 
 function Sk_web(){
 
@@ -13,6 +15,8 @@ function Sk_web(){
           <Navbar/>
           <Services/>
           <Our_project/>
+          <Clint/>
+          <Footer/>
         </React.Fragment>
     )
 }
